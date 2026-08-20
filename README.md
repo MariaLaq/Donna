@@ -1,2 +1,2 @@
-# Priority-Planner
-A Personal Task Organizer to help me organize my work and day to day tasks
+# Donna-Virtual Assistant
+My personal "Donna" virtual assistant inspired by my favorite show, Suits!
