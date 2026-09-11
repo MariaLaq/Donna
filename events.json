@@ -1,7 +1,7 @@
 [
-  {"name": "Old Quiz", "date": "2026-08-20", "type": "exam"},
-  {"name": "Study Group", "date": "2026-08-29", "type": "meeting"},
-  {"name": "Midterm Exam", "date": "2026-09-01", "type": "exam"},
-  {"name": "Advisor Meeting", "date": "2026-09-10", "type": "meeting"},
+  {"name": "Old Quiz", "date": "2026-09-01", "type": "exam"},
+  {"name": "Study Group", "date": "2026-09-13", "type": "meeting"},
+  {"name": "Midterm Exam", "date": "2026-09-15", "type": "exam"},
+  {"name": "Advisor Meeting", "date": "2026-09-25", "type": "meeting"},
   {"name": "Final Project Due", "date": "2026-10-15", "type": "exam"}
 ]

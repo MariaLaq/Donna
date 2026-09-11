@@ -6,8 +6,16 @@ def load_events(filepath):
     """
     TODO: Open and parse the JSON file at `filepath`.
     """
-    with open(filepath, 'r') as f:
-        return json.load(f)
+    try:
+        with open(filepath, 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"Error: File '{filepath}' not found.")
+        return []
+    except json.JSONDecodeError:
+        print(f"Error: File '{filepath}' is not a valid json.file")
+        return []
+
 pass
 
 def upcoming_events(events, days=7):
@@ -38,5 +46,6 @@ pass
 
 if __name__ == "__main__":
     events = load_events('events.json')
+    print("Loaded events:", events)
     for e in upcoming_events(events):
         print(f"{e['date']}: {e['name']} ({e['type']})")
